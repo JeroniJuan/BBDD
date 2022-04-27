@@ -1,5 +1,5 @@
 <!DOCTYPE html>  
-<html>
+
 
 
 <head>
@@ -22,44 +22,34 @@
         </div>
     </section>
     <section>
-        <table border="1">
-            <thead></thead>
-                <tr>
-                    <td>DNI</td>
-                    <td>Nom</td>
-                    <td>Llinatges</td>
-                    <td>Email</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>0000000x</td>
-                    <td>Nom</td>
-                    <td>Llinatges</td>
-                    <td>ejemplo@ejemplo.com</td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <td>0000000x</td>
-                    <td>Nom</td>
-                    <td>Llinatges</td>
-                    <td>ejemplo@ejemplo.com</td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <td>0000000x</td>
-                    <td>Nom</td>
-                    <td>Llinatges</td>
-                    <td>ejemplo@ejemplo.com</td>
-                </tr>
-            </tbody>
-        </table>
+    <table>
+       <thead>
+          <tr>
+             <td>DNI</td>
+             <td>NOM</td>
+             <td>TELEFON</td>
+             <td>MAIL</td>
+             </tr>
+             </thead>
+             <tbody>
+                <?php
+                 $query = "SELECT * FROM treballador";
+                 $result = mysqli_query($dbh, $query);
+                 while ($row = mysqli_fetch_assoc($result)) {
+                 echo "<tr>
+                 <td>".$row['dnitreballador']."</td>
+                 <td>".$row['nom']."</td>
+                 <td>".$row['telefon']."</td>
+                 <td>".$row['mail']."</td>
+                 </tr>";
+                 }
+                 ?>
+</tbody>
+</table>
+
     </section>
     <footer>
         Peu de pagina index
     </footer>
 </body>
-
 </html>
