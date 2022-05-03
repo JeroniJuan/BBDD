@@ -7,6 +7,7 @@
             <meta content="" name="description" />
             <meta content="" name="author" />
             <link href="style.css" rel="stylesheet"></a>
+            <?php include "includes/database.php";?>
         </head>
 </body>
 </html>
