@@ -6,17 +6,16 @@
 ?>
 <?php include "includes/header.php";
 ?>
-<?php include "includes/footer.php";
-?>
+
 
 <h2>Proveidors de l'empresa</h2>
 <table>
        <thead>
           <tr>
-             <td>ID</td>
-             <td>NOM</td>
-             <td>TELEFON</td>
-             <td>MAIL</td>
+             <td><h3>ID</h3></td>
+             <td><h3>NOM</h3></td>
+             <td><h3>TELEFON</h3></td>
+             <td><h3>MAIL</h3></td>
              </tr>
              </thead>
              <tbody>
@@ -33,7 +32,9 @@
                  }
                  ?>
              </tbody>
-    </body>
 
+    </body>
+    <?php include "includes/footer.php";
+?>
 
 </html>

@@ -16,8 +16,9 @@
     </header>
     <section>
         <div>
-            <h1>Test</h1>
-            <p>Test</p>
+            <h1>Bar</h1>
+            <h2>Clients</h2>
+            <img src="img/imgbar.jpg" width="400" height="250">
             <h2>Aqui el teu clients</h2>
         </div>
     </section>
@@ -25,10 +26,10 @@
     <table>
        <thead>
           <tr>
-             <td>DNI</td>
-             <td>NOM</td>
-             <td>TELEFON</td>
-             <td>MAIL</td>
+             <td><h3>DNI</h3></td>
+             <td><h3>NOM</h3></td>
+             <td><h3>TELEFON</h3></td>
+             <td><h3>MAIL</h3></td>
              </tr>
              </thead>
              <tbody>
@@ -48,8 +49,8 @@
 </table>
 
     </section>
-    <footer>
-        Peu de pagina index
-    </footer>
+    <?php include "includes/footer.php";
+?>
 </body>
+
 </html>
