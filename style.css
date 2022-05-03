@@ -25,3 +25,9 @@ label {
   color: white;
   background-color: brown;
 }
+
+thead {
+  font-size: 12px;
+  color: crimson;
+  background-color: black;
+}

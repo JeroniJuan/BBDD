@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<title>Formulari</title>
     <body>
     <?php include "includes/head.php";
 ?>
