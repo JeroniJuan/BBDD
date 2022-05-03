@@ -23,7 +23,8 @@
         </div>
     </section>
     <section>
-    <table>
+    <table style="background-color:#000066;
+    color: white;">
        <thead>
           <tr>
              <td><h3>DNI</h3></td>

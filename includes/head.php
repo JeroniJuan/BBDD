@@ -8,6 +8,14 @@
             <meta content="" name="author" />
             <link href="style.css" rel="stylesheet"></a>
             <?php include "includes/database.php";?>
+            <style>table, th, td {
+                   border: 2px solid black;
+                   border-collapse: collapse;
+                   }
+                   th, td {
+                   padding: 6px;
+                   }
+            </style>
         </head>
 </body>
 </html>
