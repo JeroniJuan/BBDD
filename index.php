@@ -24,7 +24,7 @@
     </section>
     <section>
     <table style="background-color:#000066;
-    color: white;">
+    color: white;" class="table">
        <thead>
           <tr>
              <td><h3>DNI</h3></td>
