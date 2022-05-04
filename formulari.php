@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
-
+<title>Formulari</title>
     <body>
     <?php include "includes/head.php";
 ?>
-
 <?php include "includes/header.php";
 ?>
         <div>
-            <header> <h2>Formulari1</h2> </header>
+            <header> <h2>Formulari</h2> </header>
                 
                 <form method="get"> 
                 <div>
@@ -27,12 +26,13 @@
                         <input type="email" placeholder="mail"/>
                 </div>
                 <div>
-                    <input type="button" value="boton"/>
+                    <input type="button" value="Enviar"/>
                 </div>
                 </form>
         </div>
         <div>
         </div>
+        <?php include "includes/footer.php";?>
     </body>
-    <footer></footer>
+
 </html>
