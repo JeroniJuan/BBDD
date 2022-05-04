@@ -19,7 +19,7 @@
             <h1>Bar</h1>
             <h2>Clients</h2>
             <img src="img/imgbar.jpg" width="400" height="250">
-            <h2>Aqui el teu clients</h2>
+            <h2>Aqui els treballadors</h2>
         </div>
     </section>
     <section>
@@ -47,6 +47,7 @@
                  }
                  ?>
 </tbody>
+<a href="nou-treballador.php">Insertar Nou treballador</a>
 </table>
 
     </section>
