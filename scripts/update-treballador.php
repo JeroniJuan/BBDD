@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<head>
     <?php
 
     include '../includes/database.php';
@@ -14,8 +13,8 @@ $horari = $_POST['horari'];
 $categoria = $_POST['categoria'];
 
 
-    $query="INSERT INTO treballador (dnitreballador,nom,telefon,mail,provincia,pais,salari,horari,fkidcategoria) 
-    VALUES('$dni','$nom','$telefon','$mail','$provincia','$pais','$salari','$horari','$categoria');";
+    $query="UPDATE treballador SET dnitreballador = '$dni', nom = '$nom', mail = '$mail', provincia = '$provincia', salari = '$salari', telefon = '$telefon', horari = '$horari', fkidcategoria = '$categoria'
+    WHERE dnitreballador = '$dni'";
     $result= mysqli_query($dbh,$query);
 
     if($result){
@@ -23,6 +22,3 @@ $categoria = $_POST['categoria'];
     }else{
         echo mysqli_error($dbh);
     }
-    
-?>
-</head>

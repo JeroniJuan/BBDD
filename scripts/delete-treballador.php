@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<head>
     <?php
 
     include '../includes/database.php';
+
 
 $dni = $_POST['dnitreballador'];
 $nom = $_POST['nom'];
@@ -14,8 +14,7 @@ $horari = $_POST['horari'];
 $categoria = $_POST['categoria'];
 
 
-    $query="INSERT INTO treballador (dnitreballador,nom,telefon,mail,provincia,pais,salari,horari,fkidcategoria) 
-    VALUES('$dni','$nom','$telefon','$mail','$provincia','$pais','$salari','$horari','$categoria');";
+    $query="DELETE FROM treballador WHERE dnitreballador = '$dni'";
     $result= mysqli_query($dbh,$query);
 
     if($result){
@@ -23,6 +22,3 @@ $categoria = $_POST['categoria'];
     }else{
         echo mysqli_error($dbh);
     }
-    
-?>
-</head>

@@ -43,6 +43,8 @@
                  <td>".$row['nom']."</td>
                  <td>".$row['telefon']."</td>
                  <td>".$row['mail']."</td>
+                 <td><a class='btn btn-primary' href='nou-treballador.php?dnitreballador=".$row['dnitreballador']."'>Editar</a></td>
+                 <td><a class='btn btn-danger' href='scripts/delete-treballador.php?dnitreballador=".$row['dnitreballador']."'>Eliminar</a></td>
                  </tr>";
                  }
                  ?>

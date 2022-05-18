@@ -9,7 +9,7 @@
 
 
 <h2>Proveidors de l'empresa</h2>
-<table>
+<table class="table">
        <thead>
           <tr>
              <td><h3>ID</h3></td>
