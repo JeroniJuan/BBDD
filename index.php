@@ -40,18 +40,25 @@
                     <td>
                         <h3>MAIL</h3>
                     </td>
+                    <td>
+                        <h3>CATEGORIA</h3>
+                    </td>
                 </tr>
             </thead>
             <tbody>
                 <?php
-                $query = "SELECT * FROM treballador";
+                $query = "SELECT treballador.dnitreballador, treballador.nom, treballador.telefon, treballador.mail, categoria.nom AS categoria
+                FROM treballador
+                INNER JOIN categoria
+                WHERE treballador.fkidcategoria = categoria.idcategoria";
                 $result = mysqli_query($dbh, $query);
                 while ($row = mysqli_fetch_assoc($result)) {
-                    echo "<tr>
+                    echo "<tr>, 
                  <td>" . $row['dnitreballador'] . "</td>
                  <td>" . $row['nom'] . "</td>
                  <td>" . $row['telefon'] . "</td>
                  <td>" . $row['mail'] . "</td>
+                 <td>" . $row['categoria'] . "</td>
                  <td><a class='btn btn-primary' href='nou-treballador.php?dnitreballador=" . $row['dnitreballador'] . "'>Editar</a></td>
                  <td><a class='btn btn-danger' href='scripts/delete-treballador.php?dnitreballador=" . $row['dnitreballador'] . "'>Eliminar</a></td>
                  </tr>";
