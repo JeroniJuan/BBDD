@@ -12,8 +12,7 @@
 
 <body>
 <section>
-        <table style="background-color:#000066;
-    color: white;" class="table">
+        <table class="table">
             <thead>
                 <tr>
                     <td>
