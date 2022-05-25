@@ -16,7 +16,7 @@
             <thead>
                 <tr>
                     <td>
-                        <h3>ID</h3>
+                        <h3>ID2</h3>
                     </td>
                     <td>
                         <h3>Nom</h3>
