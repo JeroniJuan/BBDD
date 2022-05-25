@@ -13,15 +13,15 @@
         </header>
 
         <form method="get">
-            <div>
+            <div class=form-group>
                 <label>Texto</label>
                 <input type="text" name="texto" placeholder="cosa" minlength="15" />
             </div>
-            <div>
+            <div class=form-group>
                 <label>Data</label>
                 <input type="data" placeholder="AAAA/MM/DD" />
             </div>
-            <div>
+            <div class=form-group>
                 <label>telefon</label>
                 <input type="tel" name="telefon" placeholder="0000000" />
             </div>

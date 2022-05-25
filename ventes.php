@@ -12,11 +12,11 @@
 
 <body>
 <section>
-        <table class="table">
+        <table class="table table-dark table-striped">
             <thead>
                 <tr>
                     <td>
-                        <h3>ID2</h3>
+                        <h3>ID</h3>
                     </td>
                     <td>
                         <h3>Nom</h3>
@@ -45,5 +45,9 @@
         </table>
 
 </body>
+<footer>
+    <?php include "includes/footer.php"
+    ?>
+</footer>
 
 </html>
