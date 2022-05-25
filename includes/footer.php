@@ -2,7 +2,7 @@
 <html>
     <body>
         <footer>
-            Peu de página
+            <h2>Peu de página</h2>
         </footer>
     </body>
 </html>
