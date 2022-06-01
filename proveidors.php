@@ -9,7 +9,7 @@
     ?>
 
 <section>
-    <h2>Proveïdors de l'empresa</h2>
+    <h1>Proveïdors de l'empresa</h1>
     <table class="table table-dark table-hover">
         <thead>
             <tr>
