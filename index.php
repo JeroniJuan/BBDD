@@ -19,7 +19,7 @@
         <div>
             <h1>Bar</h1>
             <h2>Treballadors</h2>
-            <img src="img/imgbar.jpg" width="400" height="250">
+            <img src="img/imgbar.jpg" width="1300" height="500">
             <h2>Aqui els treballadors</h2>
         </div>
     </section>
@@ -75,6 +75,9 @@
    <path d="M18 19h-13a2 2 0 1 1 0 -4h4a2 2 0 1 0 0 -4h-3"></path>
 </svg>
                     </td>
+                    <td>
+                        <h3>OPCIONS</h3>
+                    </td>
                 </tr>
             </thead>
             <tbody>
@@ -91,9 +94,8 @@
                  <td>" . $row['telefon'] . "</td>
                  <td>" . $row['mail'] . "</td>
                  <td>" . $row['categoria'] . "</td>
-                 <td><a class='btn btn-primary' href='nou-treballador.php?dnitreballador=" . $row['dnitreballador'] . "'>Editar</a></td>
-                 <td><a class='btn btn-danger' href='scripts/delete-treballador.php?dnitreballador=" . $row['dnitreballador'] . "'>Eliminar</a></td>
-                 
+                 <td><a class='btn btn-primary' href='nou-treballador.php?dnitreballador=" . $row['dnitreballador'] . "'>Editar</a>
+                 <a class='btn btn-danger' href='scripts/delete-treballador.php?dnitreballador=" . $row['dnitreballador'] . "'>Eliminar</a></td>
                  </tr>";
                 }
                 ?>
