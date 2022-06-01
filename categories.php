@@ -14,16 +14,16 @@
         <thead>
             <tr>
                 <td>
-                    <h2>ID</h2>
+                    <h3>ID</h3>
                 </td>
                 <td>
-                    <h2>NOM</h2>
+                    <h3>NOM</h3>
                 </td>
                 <td>
-                    <h2>RANG</h2>
+                    <h3>RANG</h3>
                 </td>
                 <td>
-                    <h2>SOU</h2>
+                    <h3>SOU</h3>
                 </td>
             </tr>
         </thead>

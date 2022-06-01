@@ -12,17 +12,17 @@
 
 <body>
 <section>
-        <table class="table">
+        <table class="table table-dark table-hover">
             <thead>
                 <tr>
                     <td>
-                        <h3>ID2</h3>
+                        <h4>ID2</h4>
                     </td>
                     <td>
-                        <h3>Nom</h3>
+                        <h4>Nom</h4>
                     </td>
                     <td>
-                        <h3>IDVenta</h3>
+                        <h4>IDVenta</h4>
                     </td>
                 </tr>
             </thead>
