@@ -15,12 +15,32 @@
             <tr>
                 <td>
                     <h3>ID</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-id" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <desc>Download more icon variants from https://tabler-icons.io/i/id</desc>
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <rect x="3" y="4" width="18" height="16" rx="3"></rect>
+   <circle cx="9" cy="10" r="2"></circle>
+   <line x1="15" y1="8" x2="17" y2="8"></line>
+   <line x1="15" y1="12" x2="17" y2="12"></line>
+   <line x1="7" y1="16" x2="17" y2="16"></line>
+</svg>
                 </td>
                 <td>
                     <h3>NOM</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <desc>Download more icon variants from https://tabler-icons.io/i/user</desc>
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <circle cx="12" cy="7" r="4"></circle>
+   <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+</svg>
                 </td>
                 <td>
                     <h3>RANG</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <desc>Download more icon variants from https://tabler-icons.io/i/square</desc>
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+</svg>
                 </td>
                 <td>
                     <h3>SOU</h3>
