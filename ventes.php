@@ -24,9 +24,6 @@
                     <td>
                         <h4>IDVenta</h4>
                     </td>
-                    <td>
-                        <h3>Opcions</h3>
-                    </td>
                 </tr>
             </thead>
             <tbody>
@@ -41,13 +38,10 @@
                  <td>" . $row['id'] . "</td>
                  <td>" . $row['nom'] . "</td>
                  <td>" . $row['fkidventa'] . "</td>
-                 <td><a class='btn btn-primary' href='nova-venta.php?dnitreballador=" . $row['id'] . "'>Editar</a></td>
-                 <td><a class='btn btn-danger' href='scripts/delete-venta.php?dnitreballador=" . $row['id'] . "'>Eliminar</a></td>
                  </tr>";
                 }
                 ?>
             </tbody>
-            <a href="nova-venta.php">Insertar Nova Venta</a>
         </table>
 
 </body>
