@@ -16,15 +16,16 @@
             <thead>
                 <tr>
                     <td>
-                        <h4>ID2</h4>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-id" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-   <desc>Download more icon variants from https://tabler-icons.io/i/id</desc>
+                        <h3>ID</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-id-badge-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <desc>Download more icon variants from https://tabler-icons.io/i/id-badge-2</desc>
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <rect x="3" y="4" width="18" height="16" rx="3"></rect>
-   <circle cx="9" cy="10" r="2"></circle>
-   <line x1="15" y1="8" x2="17" y2="8"></line>
-   <line x1="15" y1="12" x2="17" y2="12"></line>
-   <line x1="7" y1="16" x2="17" y2="16"></line>
+   <path d="M7 12h3v4h-3z"></path>
+   <path d="M10 6h-6a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h16a1 1 0 0 0 1 -1v-12a1 1 0 0 0 -1 -1h-6"></path>
+   <rect x="10" y="3" width="4" height="5" rx="1"></rect>
+   <path d="M14 16h2"></path>
+   <path d="M14 12h4"></path>
+</svg>
                     </td>
                     <td>
                         <h4>Nom</h4>
