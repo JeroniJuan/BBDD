@@ -30,8 +30,10 @@ if ($treballador != null) {
                 <?php
                 if ($treballador == null) {
                     echo 'NOU TREBALLADOR';
+                    echo "<title>Nou Treballador</title>";
                 } else {
                     echo 'EDITA EL TREBALLADOR';
+                    echo "<title>Edita el Treballador</title>";
                 }
                 ?>
             </h1>
@@ -75,8 +77,16 @@ if ($treballador != null) {
                     <input type="text" value="<?= $treballador['horari']; ?>" name="horari" class="form-control" placeholder="Horari" required>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Id Categoria</label>
-                    <input type="text" value="<?= $treballador['fkidcategoria']; ?>" name="categoria" class="form-control" placeholder="Categoria" required>
+                    <label for="exampleInputPassword1">Categoria</label>
+                    <select name="categoria" value="categoria">
+                        <?php
+                        $query = "SELECT idcategoria FROM categoria";
+                        $result = mysqli_query($dbh, $query);
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            echo  "<option>" . $row['idcategoria'] . "</option>";
+                        }
+                        ?>
+                    </select>
                 </div>
                 <?php
                 if ($treballador) {

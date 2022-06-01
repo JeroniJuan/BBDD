@@ -13,7 +13,7 @@
         </header>
 
         <form method="get">
-            <div>
+            <div class=form-group>
                 <label>Texto</label>
                 <input type="text" name="texto" placeholder="nom" minlength="15" />
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-text" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -27,7 +27,7 @@
 </svg>
 </svg>
             </div>
-            <div>
+            <div class=form-group>
                 <label>Data</label>
                 <input type="data" placeholder="AAAA/MM/DD" />
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -41,7 +41,7 @@
    <line x1="12" y1="15" x2="12" y2="18"></line>
 </svg>
             </div>
-            <div>
+            <div class=form-group>
                 <label>telefon</label>
                 <input type="tel" name="telefon" placeholder="0000000" />
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
