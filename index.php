@@ -1,65 +1,75 @@
-<!DOCTYPE html>  
-<html>
+<!DOCTYPE html>
+<title>Index</title>
 
 
 <head>
-<?php include "includes/head.php";
-?>
-<?php include "includes/header.php";
-?>
+    <?php include "includes/head.php";
+    ?>
+    <?php include "includes/header.php";
+    ?>
 
 
 </head>
+
 <body>
     <header>
-        
+
     </header>
     <section>
         <div>
-            <h1>Test</h1>
-            <p>Test</p>
-            <h2>Aqui el teu clients</h2>
+            <h1>Bar</h1>
+            <h2>Treballadors</h2>
+            <img src="img/imgbar.jpg" width="400" height="250">
+            <h2>Aqui els treballadors</h2>
         </div>
     </section>
     <section>
-        <table border="1">
-            <thead></thead>
+        <table class="table table-striped table-info">
+            <thead>
                 <tr>
-                    <td>DNI</td>
-                    <td>Nom</td>
-                    <td>Llinatges</td>
-                    <td>Email</td>
+                    <td>
+                        <h3>DNI</h3>
+                    </td>
+                    <td>
+                        <h3>NOM</h3>
+                    </td>
+                    <td>
+                        <h3>TELEFON</h3>
+                    </td>
+                    <td>
+                        <h3>MAIL</h3>
+                    </td>
+                    <td>
+                        <h3>CATEGORIA</h3>
+                    </td>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>0000000x</td>
-                    <td>Nom</td>
-                    <td>Llinatges</td>
-                    <td>ejemplo@ejemplo.com</td>
-                </tr>
+                <?php
+                $query = "SELECT treballador.dnitreballador, treballador.nom, treballador.telefon, treballador.mail, categoria.nom AS categoria
+                FROM treballador
+                INNER JOIN categoria
+                WHERE treballador.fkidcategoria = categoria.idcategoria";
+                $result = mysqli_query($dbh, $query);
+                while ($row = mysqli_fetch_assoc($result)) {
+                    echo "<tr>, 
+                 <td>" . $row['dnitreballador'] . "</td>
+                 <td>" . $row['nom'] . "</td>
+                 <td>" . $row['telefon'] . "</td>
+                 <td>" . $row['mail'] . "</td>
+                 <td>" . $row['categoria'] . "</td>
+                 <td><a class='btn btn-primary' href='nou-treballador.php?dnitreballador=" . $row['dnitreballador'] . "'>Editar</a></td>
+                 <td><a class='btn btn-danger' href='scripts/delete-treballador.php?dnitreballador=" . $row['dnitreballador'] . "'>Eliminar</a></td>
+                 </tr>";
+                }
+                ?>
             </tbody>
-            <tbody>
-                <tr>
-                    <td>0000000x</td>
-                    <td>Nom</td>
-                    <td>Llinatges</td>
-                    <td>ejemplo@ejemplo.com</td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <td>0000000x</td>
-                    <td>Nom</td>
-                    <td>Llinatges</td>
-                    <td>ejemplo@ejemplo.com</td>
-                </tr>
-            </tbody>
+            <a href="nou-treballador.php">Insertar Nou treballador</a>
         </table>
+
     </section>
-    <footer>
-        Peu de pagina index
-    </footer>
+    <?php include "includes/footer.php";
+    ?>
 </body>
 
 </html>
