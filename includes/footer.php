@@ -2,7 +2,7 @@
 <html>
     <body>
         <footer>
-            <h2>Peu de página</h2>
+            <h2>Bar Carlos</h2>
         </footer>
     </body>
 </html>

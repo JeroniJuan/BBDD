@@ -18,14 +18,13 @@
     <section>
         <div>
             <h1>Bar</h1>
-            <h2>Clients</h2>
+            <h2>Treballadors</h2>
             <img src="img/imgbar.jpg" width="400" height="250">
             <h2>Aqui els treballadors</h2>
         </div>
     </section>
     <section>
-        <table style="background-color:#000066;
-    color: white;" class="table">
+        <table class="table table-striped table-info">
             <thead>
                 <tr>
                     <td>
