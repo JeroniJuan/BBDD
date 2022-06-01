@@ -8,9 +8,9 @@
     <?php include "includes/header.php";
     ?>
 
-
-    <h2>Proveidors de l'empresa</h2>
-    <table class="table">
+<section>
+    <h2>Proveïdors de l'empresa</h2>
+    <table class="table table-dark table-hover">
         <thead>
             <tr>
                 <td>
@@ -37,13 +37,15 @@
                  <td>" . $row['nom'] . "</td>
                  <td>" . $row['telefon'] . "</td>
                  <td>" . $row['gmail'] . "</td>
-                 </tr>";
-            }
+                 </tr>"; }
             ?>
         </tbody>
+
+        </section>
+        <footer>
         <?php include "includes/footer.php";
         ?>
-
+        </footer>
 </body>
 
 </html>
