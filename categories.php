@@ -10,7 +10,7 @@
 
 
     <h2>Proveidors de l'empresa</h2>
-    <table class="table">
+    <table class="table table-dark table-striped">
         <thead>
             <tr>
                 <td>
