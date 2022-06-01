@@ -9,7 +9,7 @@
     ?>
     <div>
         <header>
-            <h2>Formulari</h2>
+            <h1>Formulari</h1>
         </header>
 
         <form method="get">
