@@ -9,21 +9,21 @@
     ?>
 
 
-    <h2>Proveidors de l'empresa</h2>
+    <h1>Proveidors de l'empresa</h1>
     <table class="table table-dark table-striped">
         <thead>
             <tr>
                 <td>
-                    <h3>ID</h3>
+                    <h2>ID</h2>
                 </td>
                 <td>
-                    <h3>NOM</h3>
+                    <h2>NOM</h2>
                 </td>
                 <td>
-                    <h3>RANG</h3>
+                    <h2>RANG</h2>
                 </td>
                 <td>
-                    <h3>SOU</h3>
+                    <h2>SOU</h2>
                 </td>
             </tr>
         </thead>
