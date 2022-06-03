@@ -10,9 +10,10 @@
 
 </head>
 
-<body>
+<body class="p-3 mb-2 bg-dark text-white">
+>
 <section>
-        <table class="table table-dark table-hover">
+        <table class="table table-dark table-hover table-bordered border-light">
             <thead>
                 <tr>
                     <td>
