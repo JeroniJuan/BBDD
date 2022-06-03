@@ -9,7 +9,7 @@
     ?>
 
 
-    <h1>Categories de l'empresa</h1>
+    <h1><div class="p-3 mb-2 bg-info text-white">Categories de l'empresa</div></h1>
     <table class="table table-dark table-striped">
         <thead>
             <tr>
