@@ -7,11 +7,9 @@
     ?>
     <?php include "includes/header.php";
     ?>
-
-
 </head>
 
-<body>
+<body class="p-3 mb-2 bg-warning bg-gradient text-dark">
     <header>
 
     </header>
