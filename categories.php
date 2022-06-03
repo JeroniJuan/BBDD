@@ -9,7 +9,7 @@
     ?>
 
 
-    <h1>Proveidors de l'empresa</h1>
+    <h1>Categories de l'empresa</h1>
     <table class="table table-dark table-striped">
         <thead>
             <tr>
@@ -75,7 +75,7 @@
 
 </body>
 
-        <div>
+<div>
             <?php include "includes/footer.php";
             ?>
         </div>
