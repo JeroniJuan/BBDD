@@ -10,9 +10,10 @@
 
 </head>
 
-<body>
+<body class="p-3 mb-2 bg-dark text-white">
+>
 <section>
-        <table class="table table-dark table-hover">
+        <table class="table table-dark table-hover table-bordered border-light">
             <thead>
                 <tr>
                     <td>
@@ -36,7 +37,7 @@
    <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
                     </td>
                     <td>
-                        <h4>IDVenta</h4>
+                        <h4>ID Venta</h4>
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-businessplan" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
    <desc>Download more icon variants from https://tabler-icons.io/i/businessplan</desc>
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
