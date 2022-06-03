@@ -73,11 +73,14 @@
             ?>
         </tbody>
 
-</body>
-
-<div>
+    </table>
+    <div>
             <?php include "includes/footer.php";
             ?>
         </div>
+        
+</body>
+
+
 
 </html>
