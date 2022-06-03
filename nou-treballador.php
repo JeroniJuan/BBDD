@@ -4,10 +4,10 @@
 <?php include 'includes/head.php'; ?>
 
 <?php
-$treballador = null;
-if (isset($_GET['dnitreballador'])) {
-    $dni_treballador = $_GET['dnitreballador'];
-    $query = "SELECT * FROM treballador WHERE dnitreballador = '$dni_treballador' ";
+$proveidor = null;
+if (isset($_GET['idproveidor'])) {
+    $dni_treballador = $_GET['idproveidor'];
+    $query = "SELECT * FROM proveidor WHERE idproveidor = '$dni_treballador' ";
     $result = mysqli_query($dbh, $query) or die(mysqli_error($dbh));
     $treballador = mysqli_fetch_assoc($result);
 }
