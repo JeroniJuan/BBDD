@@ -2,14 +2,14 @@
 <html>
 <title>Categories</title>
 
-<body>
+<body class="p-3 mb-2 bg-light text-white">
     <?php include "includes/head.php";
     ?>
     <?php include "includes/header.php";
     ?>
 
 
-    <h1>Proveidors de l'empresa</h1>
+    <h1><div class="p-3 mb-2 bg-info text-white">Categories de l'empresa</div></h1>
     <table class="table table-dark table-striped">
         <thead>
             <tr>
@@ -73,11 +73,14 @@
             ?>
         </tbody>
 
-        <div>
+    </table>
+    <div>
             <?php include "includes/footer.php";
             ?>
         </div>
-
+        
 </body>
+
+
 
 </html>
