@@ -2,7 +2,7 @@
 <html>
 <title>Formulari</title>
 
-<body>
+<body class="p-3 mb-2 bg-dark text-light">
     <?php include "includes/head.php";
     ?>
     <?php include "includes/header.php";

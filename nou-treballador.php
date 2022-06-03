@@ -18,7 +18,7 @@ if ($treballador != null) {
 }
 ?>
 
-<body>
+<body class="p-3 mb-2 bg-dark bg-gradient text-dark">
 
     <div class="container">
 
