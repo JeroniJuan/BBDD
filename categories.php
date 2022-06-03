@@ -2,7 +2,7 @@
 <html>
 <title>Categories</title>
 
-<body>
+<body class="p-3 mb-2 bg-light text-white">
     <?php include "includes/head.php";
     ?>
     <?php include "includes/header.php";
