@@ -8,7 +8,7 @@
     <?php include "includes/header.php";
     ?>
 
-<h1><div class="p-3 mb-2 bg-info text-white">Ventes</div></h1>
+<h1><div class="p-3 mb-2 bg-danger text-white">Ventes</div></h1>
 
 </head>
 
