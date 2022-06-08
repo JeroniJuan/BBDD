@@ -45,31 +45,38 @@ if ($proveidor != null) {
             <form action="<?= $action ?>" method="POST">
                 <div class="form-group">
                     <label for="exampleInputEmail1">NOM PROVEIDOR</label>
-                    <input value="<?= $proveidor['nom']; ?>" type="text" name="nom" class="form-control" aria-describedby="emailHelp" placeholder="Nom" required>
+                    <input value="<?= $proveidor['nom']; ?>" type="text" name="nom" class="form-control"
+                        aria-describedby="emailHelp" placeholder="Nom" required>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">UBICACIÓ</label>
-                    <input value="<?= $proveidor['ubicacio']; ?>" type="text" name="ubicacio" class="form-control" placeholder="Ubicacio" required>
+                    <input value="<?= $proveidor['ubicacio']; ?>" type="text" name="ubicacio" class="form-control"
+                        placeholder="Ubicacio" required>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">CP</label>
-                    <input value="<?= $proveidor['cp']; ?>" type="text" name="cp" class="form-control" placeholder="cp" required>
+                    <input value="<?= $proveidor['cp']; ?>" type="text" name="cp" class="form-control" placeholder="cp"
+                        required>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">PROVINCIA</label>
-                    <input value="<?= $proveidor['provincia']; ?>" type="text" name="provincia" class="form-control" placeholder="Provincia" required>
+                    <input value="<?= $proveidor['provincia']; ?>" type="text" name="provincia" class="form-control"
+                        placeholder="Provincia" required>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Pais</label>
-                    <input value="<?= $proveidor['pais']; ?>" type="text" name="pais" class="form-control" placeholder="Pais" required>
+                    <input value="<?= $proveidor['pais']; ?>" type="text" name="pais" class="form-control"
+                        placeholder="Pais" required>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Telefon</label>
-                    <input value="<?= $proveidor['telefon']; ?>" type="text" name="telefon" class="form-control" placeholder="Telefon" required>
+                    <input value="<?= $proveidor['telefon']; ?>" type="text" name="telefon" class="form-control"
+                        placeholder="Telefon" required>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">gmail</label>
-                    <input value="<?= $proveidor['gmail']; ?>" type="email" name="gmail" class="form-control" placeholder="Gmail" required>
+                    <input value="<?= $proveidor['gmail']; ?>" type="email" name="gmail" class="form-control"
+                        placeholder="Gmail" required>
                 </div>
                 <?php 
                 if($proveidor){
